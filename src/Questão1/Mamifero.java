@@ -5,7 +5,7 @@ package Questão1;
  *
  * @author W4ND3K0
  */
-public class Mamifero extends Animal{
+public abstract class Mamifero extends Animal{
     
     private int Patas;
     
@@ -20,5 +20,7 @@ public class Mamifero extends Animal{
     public Mamifero(String n, int p){
         super(n);
         this.setPatas(p);
+    }
+    public void talk(){
     }
 }
