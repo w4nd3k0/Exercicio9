@@ -5,7 +5,7 @@ package Questão1;
  *
  * @author W4ND3K0
  */
-public class Ave extends Animal{
+public abstract class Ave extends Animal{
     
     private boolean Voa;
     

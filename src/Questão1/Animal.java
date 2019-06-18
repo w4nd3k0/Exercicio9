@@ -25,7 +25,5 @@ public abstract class Animal {
         System.out.println("Nome:" + this.getNome_Animal());
     }
     
-    public abstract void talk(){
-        
-    }
+    public abstract void talk();
 }

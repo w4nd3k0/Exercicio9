@@ -21,6 +21,5 @@ public abstract class Mamifero extends Animal{
         super(n);
         this.setPatas(p);
     }
-    public void talk(){
-    }
+    public abstract void talk();
 }
